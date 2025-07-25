@@ -1,0 +1,6 @@
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\DVLD Project Driving License Management\DVLD.Shared\bin\Debug\DVLD.Shared.dll
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\DVLD Project Driving License Management\DVLD.Shared\bin\Debug\DVLD.Shared.pdb
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\DVLD Project Driving License Management\DVLD.Shared\obj\Debug\DVLD.Shared.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\DVLD Project Driving License Management\DVLD.Shared\obj\Debug\DVLD.Shared.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\DVLD Project Driving License Management\DVLD.Shared\obj\Debug\DVLD.Shared.dll
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\DVLD Project Driving License Management\DVLD.Shared\obj\Debug\DVLD.Shared.pdb

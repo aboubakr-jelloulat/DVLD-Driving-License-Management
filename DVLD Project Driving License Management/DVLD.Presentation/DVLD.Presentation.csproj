@@ -76,5 +76,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DVLD.Business\DVLD.Business.csproj">
+      <Project>{2b8c2504-e2fe-43ed-bdcd-b316ed435b31}</Project>
+      <Name>DVLD.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DVLD.Shared\DVLD.Shared.csproj">
+      <Project>{c4f56c9c-a6f5-4259-92ef-a298eda24402}</Project>
+      <Name>DVLD.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
