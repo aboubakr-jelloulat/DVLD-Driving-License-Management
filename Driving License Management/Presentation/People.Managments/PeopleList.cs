@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Presentation.Home_Pages
+namespace Presentation.People.Managments
 {
-    public partial class frmHome : Form
+    public partial class PeopleList : Form
     {
-        public frmHome()
+        public PeopleList()
         {
             InitializeComponent();
-        }
-
-        private void btnLogout_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

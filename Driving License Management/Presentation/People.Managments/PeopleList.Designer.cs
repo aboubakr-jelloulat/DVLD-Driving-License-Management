@@ -1,6 +1,6 @@
-﻿namespace Presentation.Home_Pages
+﻿namespace Presentation.People.Managments
 {
-    partial class frmMainScreen
+    partial class PeopleList
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // frmMainScreen
+            // PeopleList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1679, 1012);
-            this.Name = "frmMainScreen";
-            this.Text = "frmMainScreen";
+            this.ClientSize = new System.Drawing.Size(1445, 685);
+            this.Name = "PeopleList";
+            this.Text = "PeopleList";
             this.ResumeLayout(false);
 
         }

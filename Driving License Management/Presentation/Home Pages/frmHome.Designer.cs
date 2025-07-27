@@ -28,16 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pboxStatistiques = new System.Windows.Forms.PictureBox();
-            this.pboxDashboard = new System.Windows.Forms.PictureBox();
             this.btnUsers = new System.Windows.Forms.Button();
             this.btnDrivers = new System.Windows.Forms.Button();
             this.btnApplications = new System.Windows.Forms.Button();
-            this.btnDashBoard = new System.Windows.Forms.Button();
             this.btnPeople = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.pboxStatistiques = new System.Windows.Forms.PictureBox();
+            this.pboxDashboard = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pboxStatistiques)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxDashboard)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btnUsers
+            // 
+            this.btnUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnUsers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnUsers.FlatAppearance.BorderSize = 0;
+            this.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsers.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsers.ForeColor = System.Drawing.Color.White;
+            this.btnUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUsers.Location = new System.Drawing.Point(13, 441);
+            this.btnUsers.Margin = new System.Windows.Forms.Padding(4);
+            this.btnUsers.Name = "btnUsers";
+            this.btnUsers.Size = new System.Drawing.Size(201, 52);
+            this.btnUsers.TabIndex = 22;
+            this.btnUsers.Text = "  Users";
+            this.btnUsers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnUsers.UseVisualStyleBackColor = false;
+            // 
+            // btnDrivers
+            // 
+            this.btnDrivers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnDrivers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnDrivers.FlatAppearance.BorderSize = 0;
+            this.btnDrivers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDrivers.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDrivers.ForeColor = System.Drawing.Color.White;
+            this.btnDrivers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDrivers.Location = new System.Drawing.Point(13, 320);
+            this.btnDrivers.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDrivers.Name = "btnDrivers";
+            this.btnDrivers.Size = new System.Drawing.Size(203, 52);
+            this.btnDrivers.TabIndex = 21;
+            this.btnDrivers.Text = "  Drivers";
+            this.btnDrivers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDrivers.UseVisualStyleBackColor = false;
+            // 
+            // btnApplications
+            // 
+            this.btnApplications.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnApplications.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnApplications.FlatAppearance.BorderSize = 0;
+            this.btnApplications.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApplications.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApplications.ForeColor = System.Drawing.Color.White;
+            this.btnApplications.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnApplications.Location = new System.Drawing.Point(11, 80);
+            this.btnApplications.Margin = new System.Windows.Forms.Padding(4);
+            this.btnApplications.Name = "btnApplications";
+            this.btnApplications.Size = new System.Drawing.Size(203, 52);
+            this.btnApplications.TabIndex = 20;
+            this.btnApplications.Text = "  Applications";
+            this.btnApplications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnApplications.UseVisualStyleBackColor = false;
+            // 
+            // btnPeople
+            // 
+            this.btnPeople.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnPeople.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnPeople.FlatAppearance.BorderSize = 0;
+            this.btnPeople.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPeople.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPeople.ForeColor = System.Drawing.Color.White;
+            this.btnPeople.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPeople.Location = new System.Drawing.Point(13, 195);
+            this.btnPeople.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPeople.Name = "btnPeople";
+            this.btnPeople.Size = new System.Drawing.Size(201, 52);
+            this.btnPeople.TabIndex = 18;
+            this.btnPeople.Text = "  People";
+            this.btnPeople.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPeople.UseVisualStyleBackColor = false;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.Red;
+            this.btnLogout.Location = new System.Drawing.Point(28, 870);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(157, 46);
+            this.btnLogout.TabIndex = 23;
+            this.btnLogout.Text = "🔒 Logout 🔚";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // pboxStatistiques
             // 
@@ -59,105 +143,15 @@
             this.pboxDashboard.TabIndex = 0;
             this.pboxDashboard.TabStop = false;
             // 
-            // btnUsers
-            // 
-            this.btnUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnUsers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnUsers.FlatAppearance.BorderSize = 0;
-            this.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUsers.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsers.ForeColor = System.Drawing.Color.White;
-            this.btnUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsers.Location = new System.Drawing.Point(13, 531);
-            this.btnUsers.Margin = new System.Windows.Forms.Padding(4);
-            this.btnUsers.Name = "btnUsers";
-            this.btnUsers.Size = new System.Drawing.Size(201, 52);
-            this.btnUsers.TabIndex = 22;
-            this.btnUsers.Text = "  Users";
-            this.btnUsers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnUsers.UseVisualStyleBackColor = false;
-            // 
-            // btnDrivers
-            // 
-            this.btnDrivers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnDrivers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnDrivers.FlatAppearance.BorderSize = 0;
-            this.btnDrivers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDrivers.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDrivers.ForeColor = System.Drawing.Color.White;
-            this.btnDrivers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDrivers.Location = new System.Drawing.Point(11, 402);
-            this.btnDrivers.Margin = new System.Windows.Forms.Padding(4);
-            this.btnDrivers.Name = "btnDrivers";
-            this.btnDrivers.Size = new System.Drawing.Size(203, 52);
-            this.btnDrivers.TabIndex = 21;
-            this.btnDrivers.Text = "  Drivers";
-            this.btnDrivers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDrivers.UseVisualStyleBackColor = false;
-            // 
-            // btnApplications
-            // 
-            this.btnApplications.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnApplications.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnApplications.FlatAppearance.BorderSize = 0;
-            this.btnApplications.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnApplications.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApplications.ForeColor = System.Drawing.Color.White;
-            this.btnApplications.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnApplications.Location = new System.Drawing.Point(11, 164);
-            this.btnApplications.Margin = new System.Windows.Forms.Padding(4);
-            this.btnApplications.Name = "btnApplications";
-            this.btnApplications.Size = new System.Drawing.Size(203, 52);
-            this.btnApplications.TabIndex = 20;
-            this.btnApplications.Text = "  Applications";
-            this.btnApplications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnApplications.UseVisualStyleBackColor = false;
-            // 
-            // btnDashBoard
-            // 
-            this.btnDashBoard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnDashBoard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnDashBoard.FlatAppearance.BorderSize = 0;
-            this.btnDashBoard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashBoard.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashBoard.ForeColor = System.Drawing.Color.White;
-            this.btnDashBoard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashBoard.Location = new System.Drawing.Point(13, 59);
-            this.btnDashBoard.Margin = new System.Windows.Forms.Padding(4);
-            this.btnDashBoard.Name = "btnDashBoard";
-            this.btnDashBoard.Size = new System.Drawing.Size(203, 52);
-            this.btnDashBoard.TabIndex = 19;
-            this.btnDashBoard.Text = "  Dashboard";
-            this.btnDashBoard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDashBoard.UseVisualStyleBackColor = false;
-            // 
-            // btnPeople
-            // 
-            this.btnPeople.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnPeople.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnPeople.FlatAppearance.BorderSize = 0;
-            this.btnPeople.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPeople.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPeople.ForeColor = System.Drawing.Color.White;
-            this.btnPeople.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPeople.Location = new System.Drawing.Point(13, 287);
-            this.btnPeople.Margin = new System.Windows.Forms.Padding(4);
-            this.btnPeople.Name = "btnPeople";
-            this.btnPeople.Size = new System.Drawing.Size(201, 52);
-            this.btnPeople.TabIndex = 18;
-            this.btnPeople.Text = "  People";
-            this.btnPeople.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPeople.UseVisualStyleBackColor = false;
-            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1843, 1055);
+            this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnUsers);
             this.Controls.Add(this.btnDrivers);
             this.Controls.Add(this.btnApplications);
-            this.Controls.Add(this.btnDashBoard);
             this.Controls.Add(this.btnPeople);
             this.Controls.Add(this.pboxStatistiques);
             this.Controls.Add(this.pboxDashboard);
@@ -176,7 +170,7 @@
         private System.Windows.Forms.Button btnUsers;
         private System.Windows.Forms.Button btnDrivers;
         private System.Windows.Forms.Button btnApplications;
-        private System.Windows.Forms.Button btnDashBoard;
         private System.Windows.Forms.Button btnPeople;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

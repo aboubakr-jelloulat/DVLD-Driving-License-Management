@@ -4,3 +4,9 @@ C:\Users\HP\Desktop\DVLD\Driving License Management\DataAccess\obj\Debug\DataAcc
 C:\Users\HP\Desktop\DVLD\Driving License Management\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\DVLD\Driving License Management\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\HP\Desktop\DVLD\Driving License Management\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\Driving License Management\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\Driving License Management\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\Driving License Management\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\Driving License Management\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\Driving License Management\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\HP\Desktop\DVLD-Driving-License-Management\Driving License Management\DataAccess\obj\Debug\DataAccess.pdb
