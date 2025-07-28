@@ -92,6 +92,7 @@
             this.btnApplications.Text = "  Applications";
             this.btnApplications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnApplications.UseVisualStyleBackColor = false;
+            this.btnApplications.Click += new System.EventHandler(this.btnApplications_Click);
             // 
             // btnPeople
             // 
@@ -110,6 +111,7 @@
             this.btnPeople.Text = "  People";
             this.btnPeople.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPeople.UseVisualStyleBackColor = false;
+            this.btnPeople.Click += new System.EventHandler(this.btnPeople_Click);
             // 
             // btnLogout
             // 

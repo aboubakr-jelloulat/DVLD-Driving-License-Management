@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Presentation.People.Managments.People.List;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,20 @@ namespace Presentation.Home_Pages
         private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnApplications_Click(object sender, EventArgs e)
+        {
+            
+
+
+        }
+
+        private void btnPeople_Click(object sender, EventArgs e)
+        {
+            Form frmPeopleList = new FrmPeopleList();
+
+            frmPeopleList.ShowDialog();
         }
     }
 }

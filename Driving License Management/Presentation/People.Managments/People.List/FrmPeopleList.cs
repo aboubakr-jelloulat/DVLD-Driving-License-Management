@@ -8,13 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Presentation.People.Managments
+namespace Presentation.People.Managments.People.List
 {
-    public partial class PeopleList : Form
+    public partial class FrmPeopleList : Form
     {
-        public PeopleList()
+        public FrmPeopleList()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 }
