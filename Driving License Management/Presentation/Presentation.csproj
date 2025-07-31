@@ -70,11 +70,23 @@
     <Compile Include="Login\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="People.Managments\AddPeople\FrmAddPeople.cs">
+    <Compile Include="People.Managments\Add.UpdatePeople\FrmAddUpdatePeople.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="People.Managments\AddPeople\FrmAddPeople.Designer.cs">
-      <DependentUpon>FrmAddPeople.cs</DependentUpon>
+    <Compile Include="People.Managments\Add.UpdatePeople\FrmAddUpdatePeople.Designer.cs">
+      <DependentUpon>FrmAddUpdatePeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People.Managments\Controls\PeopleControls\ctrlPersonCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People.Managments\Controls\PeopleControls\ctrlPersonCard.Designer.cs">
+      <DependentUpon>ctrlPersonCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People.Managments\Controls\PeopleControls\ctrlPersonCardWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People.Managments\Controls\PeopleControls\ctrlPersonCardWithFilter.Designer.cs">
+      <DependentUpon>ctrlPersonCardWithFilter.cs</DependentUpon>
     </Compile>
     <Compile Include="People.Managments\People.List\FrmPeopleList.cs">
       <SubType>Form</SubType>
@@ -103,8 +115,14 @@
     <EmbeddedResource Include="Login\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="People.Managments\AddPeople\FrmAddPeople.resx">
-      <DependentUpon>FrmAddPeople.cs</DependentUpon>
+    <EmbeddedResource Include="People.Managments\Add.UpdatePeople\FrmAddUpdatePeople.resx">
+      <DependentUpon>FrmAddUpdatePeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People.Managments\Controls\PeopleControls\ctrlPersonCard.resx">
+      <DependentUpon>ctrlPersonCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People.Managments\Controls\PeopleControls\ctrlPersonCardWithFilter.resx">
+      <DependentUpon>ctrlPersonCardWithFilter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="People.Managments\People.List\FrmPeopleList.resx">
       <DependentUpon>FrmPeopleList.cs</DependentUpon>
@@ -168,5 +186,6 @@
   <ItemGroup>
     <None Include="Resources\Screenshot 2025-07-28 144755.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

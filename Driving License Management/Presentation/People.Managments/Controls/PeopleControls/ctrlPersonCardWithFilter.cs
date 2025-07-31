@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Presentation.People.Managments.AddPeople
+namespace Presentation.People.Managments.Controls.PeopleControls
 {
-    public partial class FrmAddPeople : Form
+    public partial class ctrlPersonCardWithFilter : UserControl
     {
-        public FrmAddPeople()
+        public ctrlPersonCardWithFilter()
         {
             InitializeComponent();
-        }
-
-        private void lblTitle_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

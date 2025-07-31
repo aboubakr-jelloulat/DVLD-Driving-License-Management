@@ -41,7 +41,7 @@ namespace Presentation.People.Managments.People.List
 
         private void btnAddPerson_Click(object sender, EventArgs e)
         {
-            Form frm1 = new FrmAddPeople();
+            Form frm1 = new FrmAddUpdatePeople();
 
             frm1.ShowDialog();
 

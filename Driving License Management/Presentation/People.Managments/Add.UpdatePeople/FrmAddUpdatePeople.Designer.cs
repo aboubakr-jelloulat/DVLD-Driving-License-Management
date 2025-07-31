@@ -1,6 +1,6 @@
 ﻿namespace Presentation.People.Managments.AddPeople
 {
-    partial class FrmAddPeople
+    partial class FrmAddUpdatePeople
     {
         /// <summary>
         /// Required designer variable.
@@ -120,6 +120,7 @@
             this.llRemoveImage.TabIndex = 112;
             this.llRemoveImage.TabStop = true;
             this.llRemoveImage.Text = "Remove";
+            this.llRemoveImage.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llRemoveImage_LinkClicked);
             // 
             // pictureBox9
             // 
@@ -243,6 +244,7 @@
             this.llSetImage.TabIndex = 13;
             this.llSetImage.TabStop = true;
             this.llSetImage.Text = "Set Image";
+            this.llSetImage.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llSetImage_LinkClicked_1);
             // 
             // pictureBox7
             // 
@@ -556,6 +558,7 @@
             this.btnSave.TabIndex = 14;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // lblTitle
             // 
@@ -573,7 +576,7 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // FrmAddPeople
+            // FrmAddUpdatePeople
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -583,8 +586,9 @@
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblTitle);
-            this.Name = "FrmAddPeople";
+            this.Name = "FrmAddUpdatePeople";
             this.Text = "FrmAddPeople";
+            this.Load += new System.EventHandler(this.FrmAddPeople_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();

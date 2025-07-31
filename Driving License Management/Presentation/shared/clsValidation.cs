@@ -12,6 +12,7 @@ namespace Presentation.shared
 
         public static bool ValidateEmail(string emailAddress)
         {
+            // Regular expression pattern for validating email addresses we don't save it we can remebr it from documentation or AI hahah
             var pattern = @"^[a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$";
 
             var regex = new Regex(pattern);
