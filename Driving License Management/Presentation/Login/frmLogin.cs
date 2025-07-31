@@ -1,4 +1,6 @@
-﻿using Presentation.Home_Pages;
+﻿using Business.Users;
+using Presentation.Home_Pages;
+using Presentation.shared;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +10,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Business.Users;
 
 namespace Presentation.Login
 {
@@ -43,9 +44,7 @@ namespace Presentation.Login
         {
             Form form = new frmHome();
 
-            form.Show();
-
-            //this.Hide();
+            form.ShowDialog();
 
         }
 
@@ -69,6 +68,20 @@ namespace Presentation.Login
                     return;
                 }
 
+                if (chckRememberMe.Checked)
+                {
+                    //store username and password
+                    clsGlobal.RememberUsernameAndPassword(txtboxLoginUsername.Text.Trim(), txtboxLoginPassword.Text.Trim());
+
+                }
+                else
+                {
+                    //store empty username and password
+                    clsGlobal.RememberUsernameAndPassword("", "");
+
+                }
+
+                clsGlobal.CurrentUser = user;
                 _ShowDashboardForm();
             }
 

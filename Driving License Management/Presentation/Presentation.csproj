@@ -90,6 +90,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shared\clsFormat.cs" />
+    <Compile Include="shared\clsGlobal.cs" />
+    <Compile Include="shared\clsUtils.cs" />
+    <Compile Include="shared\clsValidation.cs" />
     <EmbeddedResource Include="Home Pages\frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>

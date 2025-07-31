@@ -52,7 +52,7 @@
             this.btnUsers.Margin = new System.Windows.Forms.Padding(4);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Size = new System.Drawing.Size(201, 52);
-            this.btnUsers.TabIndex = 22;
+            this.btnUsers.TabIndex = 4;
             this.btnUsers.Text = "  Users";
             this.btnUsers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnUsers.UseVisualStyleBackColor = false;
@@ -70,7 +70,7 @@
             this.btnDrivers.Margin = new System.Windows.Forms.Padding(4);
             this.btnDrivers.Name = "btnDrivers";
             this.btnDrivers.Size = new System.Drawing.Size(203, 52);
-            this.btnDrivers.TabIndex = 21;
+            this.btnDrivers.TabIndex = 3;
             this.btnDrivers.Text = "  Drivers";
             this.btnDrivers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDrivers.UseVisualStyleBackColor = false;
@@ -88,7 +88,7 @@
             this.btnApplications.Margin = new System.Windows.Forms.Padding(4);
             this.btnApplications.Name = "btnApplications";
             this.btnApplications.Size = new System.Drawing.Size(203, 52);
-            this.btnApplications.TabIndex = 20;
+            this.btnApplications.TabIndex = 1;
             this.btnApplications.Text = "  Applications";
             this.btnApplications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnApplications.UseVisualStyleBackColor = false;
@@ -107,7 +107,7 @@
             this.btnPeople.Margin = new System.Windows.Forms.Padding(4);
             this.btnPeople.Name = "btnPeople";
             this.btnPeople.Size = new System.Drawing.Size(201, 52);
-            this.btnPeople.TabIndex = 18;
+            this.btnPeople.TabIndex = 2;
             this.btnPeople.Text = "  People";
             this.btnPeople.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPeople.UseVisualStyleBackColor = false;
@@ -120,7 +120,7 @@
             this.btnLogout.Location = new System.Drawing.Point(28, 870);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(157, 46);
-            this.btnLogout.TabIndex = 23;
+            this.btnLogout.TabIndex = 5;
             this.btnLogout.Text = "🔒 Logout 🔚";
             this.btnLogout.UseVisualStyleBackColor = true;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);

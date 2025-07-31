@@ -16,5 +16,10 @@ namespace Presentation.People.Managments.AddPeople
         {
             InitializeComponent();
         }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

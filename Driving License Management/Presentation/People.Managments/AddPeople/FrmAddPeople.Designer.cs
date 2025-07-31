@@ -378,7 +378,7 @@
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Location = new System.Drawing.Point(156, 133);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(928, 378);
+            this.groupBox1.Size = new System.Drawing.Size(1070, 378);
             this.groupBox1.TabIndex = 114;
             this.groupBox1.TabStop = false;
             // 
@@ -567,6 +567,7 @@
             this.lblTitle.TabIndex = 115;
             this.lblTitle.Text = "Add New Person";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // errorProvider1
             // 
@@ -576,7 +577,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1236, 583);
+            this.ClientSize = new System.Drawing.Size(1380, 664);
             this.Controls.Add(this.lblPersonID);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.pictureBox10);

@@ -1,4 +1,5 @@
 ﻿using Business.People.Business;
+using Presentation.People.Managments.AddPeople;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -40,7 +41,11 @@ namespace Presentation.People.Managments.People.List
 
         private void btnAddPerson_Click(object sender, EventArgs e)
         {
-            //Form frmAddnewPerson = new frmAdd
+            Form frm1 = new FrmAddPeople();
+
+            frm1.ShowDialog();
+
+            _RefreshPeopleList();
         }
     }
 }
