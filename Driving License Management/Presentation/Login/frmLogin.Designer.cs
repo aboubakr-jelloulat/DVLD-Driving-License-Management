@@ -232,6 +232,7 @@
             this.Controls.Add(this.pnlLogin);
             this.Name = "frmLogin";
             this.Text = "frmLogin";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorInfoValidation)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDrivingLiecenceImage)).EndInit();
             this.pnlLogin.ResumeLayout(false);

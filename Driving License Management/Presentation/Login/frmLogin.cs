@@ -84,7 +84,20 @@ namespace Presentation.Login
                 clsGlobal.CurrentUser = user;
                 _ShowDashboardForm();
             }
+        }
 
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            string UserName = "", Password = "";
+
+            if (clsGlobal.GetStoredCredential(ref UserName, ref Password))
+            {
+                txtboxLoginUsername.Text = UserName;
+                txtboxLoginPassword.Text = Password;
+                chckRememberMe.Checked = true;
+            }
+            else
+                chckRememberMe.Checked = false;
         }
     }
 }
