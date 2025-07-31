@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business.People.Business;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,26 @@ namespace Presentation.People.Managments.People.List
         private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void _RefreshPeopleList()
+        {
+
+            dgvPeople.Font = new Font("Segoe UI", 10, FontStyle.Italic);
+
+            dgvPeople.DataSource =  clsPeople.GetAllPeople();
+            lblRecordsCount.Text = dgvPeople.Rows.Count.ToString();
+
+        }
+
+        private void FrmPeopleList_Load(object sender, EventArgs e)
+        {
+            _RefreshPeopleList();
+        }
+
+        private void btnAddPerson_Click(object sender, EventArgs e)
+        {
+            //Form frmAddnewPerson = new frmAdd
         }
     }
 }

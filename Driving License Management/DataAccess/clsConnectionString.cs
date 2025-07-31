@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public class Data
+    public class clsConnectionString
     {
+        public static string ConnectionString = "Server=.; Database=DVLD; User Id = sa; Password=sa123456";
+
     }
 }
