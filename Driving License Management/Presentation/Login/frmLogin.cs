@@ -80,7 +80,7 @@ namespace Presentation.Login
                     clsGlobal.RememberUsernameAndPassword("", "");
 
                 }
-
+                
                 clsGlobal.CurrentUser = user;
                 _ShowDashboardForm();
             }
