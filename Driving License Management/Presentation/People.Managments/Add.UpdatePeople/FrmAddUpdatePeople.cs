@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -74,11 +75,7 @@ namespace Presentation.People.Managments.AddPeople
                 lblTitle.Text = "Update Person";
             }
 
-            //set default image for the person.
-            //if (rbMale.Checked)
-            //    pbPersonImage.Image = Resources.Male_512;
-            //else
-            //    pbPersonImage.Image = Resources.Female_512;
+            
 
             //hide/show the remove linke incase there is no image for the person.
 
@@ -242,6 +239,54 @@ namespace Presentation.People.Managments.AddPeople
             }
         }
 
+        private bool _HandlePersonImage()
+        {
+
+            //this procedure will handle the person image,
+            //it will take care of deleting the old image from the folder
+            //in case the image changed. and it will rename the new image with guid and 
+            // place it in the images folder.
+
+
+            //_Person.ImagePath contains the old Image, we check if it changed then we copy the new image
+            if (_Person.ImagePath != pbPersonImage.ImageLocation)
+            {
+                if (_Person.ImagePath != "")
+                {
+                    //first we delete the old image from the folder in case there is any.
+
+                    try
+                    {
+                        File.Delete(_Person.ImagePath);
+                    }
+                    catch (IOException)
+                    {
+                        // We could not delete the file.
+                        //log it later   
+                    }
+                }
+
+                if (pbPersonImage.ImageLocation != null)
+                {
+                    //then we copy the new image to the image folder after we rename it
+                    string SourceImageFile = pbPersonImage.ImageLocation.ToString();
+
+                    if (clsUtils.CopyImageToProjectImagesFolder(ref SourceImageFile))
+                    {
+                        pbPersonImage.ImageLocation = SourceImageFile;
+                        return true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error Copying Image File", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return false;
+                    }
+                }
+
+            }
+            return true;
+        }
+
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (!this.ValidateChildren())
@@ -252,8 +297,8 @@ namespace Presentation.People.Managments.AddPeople
 
             }
 
-            //if (!_HandlePersonImage())
-            //    return;
+            if (!_HandlePersonImage())
+                return;
 
             int NationalityCountryID = clsCountry.Find(cbCountry.Text).ID;
 
